@@ -61,9 +61,9 @@ public class ChessTimer extends JPanel {
   private int h[];
   boolean rundown;
   boolean timedGame;
-
-  private String blackImageDirection = IMAGE_FOLDER + "blackClock.png";
-  private String whiteImageDirection = IMAGE_FOLDER + "whiteClock.png";
+  
+  private String blackImageDirection = IMAGE_FOLDER + "clocks/blackClock.png";
+  private String whiteImageDirection = IMAGE_FOLDER + "clocks/whiteClock.png";
   private BufferedImage blackImage, whiteImage;
 
   /**

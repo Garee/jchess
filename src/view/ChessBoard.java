@@ -73,10 +73,11 @@ class ChessBoard extends JPanel {
 
   // path to images, change here, if error!
   private final String FOLDER_STRUCTURE = "img/imageSet";
-
+  
   // change default image-set here
   int folderNumber = 1;
-  String folder = FOLDER_STRUCTURE + folderNumber + "/";
+  //  String folder = FOLDER_STRUCTURE + folderNumber + "/";
+  String folder = "img/pieces/";
   String[] PIECES;
 
   Graphics boardRep;
@@ -145,7 +146,7 @@ class ChessBoard extends JPanel {
     possibleBG = a.getPossiblePosition ();
     previousBG = a.getPreviousArrow ();
     folderNumber = a.getFolderNumber ();
-    folder = FOLDER_STRUCTURE + folderNumber + "/";
+    folder = "img/pieces/";
     makePiecesArray (folder);
   }
 

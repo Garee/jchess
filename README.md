@@ -1,12 +1,12 @@
 JChess
 ======
 
-JChess is a chess engine designed and implemented by five students studying at the University of Glasgow.
+JChess is a simple chess engine implemented using Java.
 
-![JChess](http://i.imgur.com/0IMsfRZ.png?1)
+![JChess](http://i.imgur.com/qZnLbRN.png?1)
 
 Usage
-=====
+-----
 The [ant](https://ant.apache.org/) build system is required for compilation.
 
 1. Compile the program.
@@ -14,7 +14,7 @@ The [ant](https://ant.apache.org/) build system is required for compilation.
 ant compile
 </pre>
 
-2. Create a .jar executable.
+2. Create the .jar executable.
 <pre>
 ant jar
 </pre>
