@@ -1,0 +1,23 @@
+<project>
+  <target name="compile">
+    <mkdir dir="build/classes"/>
+    <javac srcdir="src" destdir="build/classes" includeantruntime="false"/>
+  </target>
+  
+  <target name="jar">
+    <mkdir dir="build/jar"/>
+    <jar destfile="build/jar/jchess.jar" basedir="build/classes">
+      <manifest>
+        <attribute name="Main-Class" value="view.MainWindow"/>
+      </manifest>
+    </jar>
+  </target>
+  
+  <target name="run">
+    <java jar="build/jar/jchess.jar" fork="true"/>
+  </target>
+  
+  <target name="clean">
+    <delete dir="build"/>
+  </target>
+</project>

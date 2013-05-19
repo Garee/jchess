@@ -40,10 +40,10 @@ public class ChessTimer extends JPanel {
   private final int SMALL_CLOCK_LABEL_FONTSIZE = 13;
   private final int SMALL_CLOCK_TIME_FONTSIZE = 16;
   private final int CLOCK_IMAGE_MARGIN_LEFT = 30;
-
+  
   // if images are not found: change folder here!
-  private final String IMAGE_FOLDER = "resources/";
-
+  private final String IMAGE_FOLDER = "img/";
+  
   private final int MILI_TO_SECOND = 1000;
   private final int SEC_TO_MIN = 60;
   private final int DAY_TO_HOUR = 24;

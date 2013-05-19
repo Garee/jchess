@@ -99,7 +99,7 @@ class ChessBoard extends JPanel {
   }
 
   private void makePiecesArray(String folder) {
-
+    
     String[] newPieces = { folder + "bb.png", folder + "bk.png",
         folder + "bn.png", folder + "bp.png", folder + "bq.png",
         folder + "br.png", folder + "wb.png", folder + "wk.png",
@@ -107,9 +107,10 @@ class ChessBoard extends JPanel {
         folder + "wr.png", folder + "checkHighlightning.png",
         folder + "dangerHighlightning.png", };
     PIECES = newPieces;
-
+    
     try {
       for (int i = 0; i < PIECES.length; i++) {
+	System.out.println(PIECES[i]);
         image[i] = ImageIO.read (new File (PIECES[i]));
       }
     }
