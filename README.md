@@ -3,8 +3,6 @@ JChess
 
 JChess is a simple chess engine implemented using Java.
 
-![JChess](https://googledrive.com/host/0B6xpBIlxAFeqOXBYdVpXemlKSTA/jchess.png)
-
 Usage
 -----
 The [ant](https://ant.apache.org/) build system is required for compilation.
