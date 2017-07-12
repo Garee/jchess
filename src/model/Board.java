@@ -871,7 +871,7 @@ public class Board {
    * @return True if the king can castle, false otherwise.
    */
   private boolean canCastleQueenSide( int position ) {
-    return ( !hasPieceMoved( pieceAt( position ) ) && !kingInCheck() && pieceTypeAt( position + 3 ) == ROOK && !hasPieceMoved( pieceAt( position - 4 ) )
+    return ( !hasPieceMoved( pieceAt( position ) ) && !kingInCheck() && pieceTypeAt( position - 4 ) == ROOK && !hasPieceMoved( pieceAt( position - 4 ) )
              && squareEmpty( position - 1 ) && !squareAttacked( position - 1 )
              && squareEmpty( position - 2 ) && !squareAttacked( position - 2 )
              && squareEmpty( position - 3 ) && !squareAttacked( position - 3 ) );
