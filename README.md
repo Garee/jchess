@@ -4,7 +4,7 @@
 
 JChess is a simple chess engine implemented using Java.
 
-## Usage
+## Quick Start
 
 The [ant](https://ant.apache.org/) build system is required for compilation.
 
