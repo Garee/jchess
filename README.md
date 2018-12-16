@@ -1,35 +1,39 @@
-JChess
-======
+<h1 align="center">JChess</h1>
+
+![JChess](https://i.imgur.com/5cVzhm5.png)
 
 JChess is a simple chess engine implemented using Java.
 
-Usage
------
+## Usage
+
 The [ant](https://ant.apache.org/) build system is required for compilation.
 
 1. Compile the program.
-<pre>
-ant compile
-</pre>
+
+   <pre>
+   ant compile
+   </pre>
 
 2. Create the .jar executable.
-<pre>
-ant jar
-</pre>
+
+   <pre>
+   ant jar
+   </pre>
 
 3. Run the program.
-<pre>
-ant run
-</pre>
+
+   <pre>
+   ant run
+   </pre>
 
 4. Remove the build files.
-<pre>
-ant clean
-</pre>
+   <pre>
+   ant clean
+   </pre>
 
-Features
---------
-* Graphical user interface.
-* Three levels of AI difficulty.
-* Customisable piece icons.
-* Timers.
+## Features
+
+- Graphical user interface.
+- Three levels of AI difficulty.
+- Customisable piece icons.
+- Timers.
