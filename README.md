@@ -1,6 +1,6 @@
 <h1 align="center">JChess</h1>
 
-![JChess](https://i.imgur.com/5cVzhm5.png)
+<a href="https://imgur.com/5cVzhm5"><img src="https://i.imgur.com/5cVzhm5.png?2" title="source: imgur.com" /></a>
 
 JChess is a simple chess engine implemented using Java.
 
